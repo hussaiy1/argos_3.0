@@ -3,7 +3,7 @@ from discord_webhook import DiscordWebhook, DiscordEmbed
 webhook = DiscordWebhook(url="https://discord.com/api/webhooks/776417294187757568/f0xqLpTY_ksAeuw8WU__AMtAROp21mBSAmAHzru66n0kbOvNWlpzHVQZ0V18Qou65iPB", username="Argos")
 
 
-def send_hook(url)
+def send_hook(url):
     embed = DiscordEmbed(
         title="ARGOS", description="Product Avaialable", color=242424
     )
